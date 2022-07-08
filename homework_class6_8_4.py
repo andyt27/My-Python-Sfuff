@@ -5,9 +5,9 @@ lst = list()
         la=line.rstrip()
         words=la.split()
     for i in words:
-    if i in lst :
-        continue
-    else :
-        lst.append(i)
-        lst.sort()
+        if i in lst :
+            continue
+        else :
+            lst.append(i)
+            lst.sort()
 print(lst)
