@@ -8,6 +8,6 @@ lst = list()
     if i in lst :
         continue
     else :
-    lst.append(i)
-    lst.sort()
+        lst.append(i)
+        lst.sort()
 print(lst)
