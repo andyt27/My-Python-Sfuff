@@ -12,8 +12,8 @@ for line in handle:
     counts[word] = counts.get(word,0) + 1
 
 bcount = None
-Bword = None
+bword = None
 for word,count in counts.items():
-if bcount is None or count > bcount:
-bcount = count
-bword = word
+    if bcount is None or count > bcount:
+    bcount = count
+    bword = word
